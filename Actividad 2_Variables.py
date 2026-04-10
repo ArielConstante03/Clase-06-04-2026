@@ -1,9 +1,12 @@
+""" Ariel Constante
+    08 04 2026
+    Actividad 2 """
 #Ariel Constante
 # 08 04 2026
 #Actividad 2
     #Ejercicio 1
 first_name, last_name, country, age, is_married, is_true, light_on = "Ariel", "Constante", "Ecuador", 17, False, False, True
-print(first_name, last_name, country, age, is_married)
+print(first_name, last_name, country, age, is_married, is_true, light_on)
 print("First Name:", first_name)
 print("Last Name:", last_name)
 print("Country:", country)
