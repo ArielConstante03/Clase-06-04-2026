@@ -21,24 +21,24 @@ a, b, c = 1, 2, 3
 # Nivel 2
 
 # 1. Tipos de datos
-print(type(nombre))
-print(type(apellido))
-print(type(nombreCompleto))
-print(type(pais))
-print(type(ciudad))
-print(type(edad))
-print(type(año))
-print(type(estaCasado))
-print(type(esVerdadero))
-print(type(luzEncendida))
+print(type(first_name))
+print(type(last_name))
+print(type(first_name))
+print(type(country))
+print(type(country))
+print(type(age))
+print(type(age))
+print(type(is_married))
+print(type(is_true))
+print(type(light_on))
 
 # 2. Longitud del nombre
-print(len(nombre))
+print(len(first_name))
 
 # 3. Comparación de longitudes
-print(len(nombre) > len(apellido))
-print(len(nombre) < len(apellido))
-print(len(nombre) == len(apellido))
+print(len(first_name) > len(last_name))
+print(len(first_name) < len(last_name))
+print(len(first_name) == len(last_name))
 
 # 4. Números
 numeroUno = 5
