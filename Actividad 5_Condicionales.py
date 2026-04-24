@@ -30,3 +30,7 @@ else:
         else:
             print('A is a negative odd number')  # A is a negative odd number
 # %%
+#Mayor o menor de edad en una línea
+edad = int(input("Ingrese su edad: "))
+print("Mayor de edad" if edad >= 18 else "Menor de edad")  # Mayor de edad o Menor de edad
+# %%
