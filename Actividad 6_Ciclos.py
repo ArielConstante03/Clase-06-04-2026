@@ -32,3 +32,4 @@ while opcion != "salir":
         print("Saliendo del programa")
     else:
         print("Opción no válida, por favor intente de nuevo")
+# %%
