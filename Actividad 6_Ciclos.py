@@ -4,10 +4,10 @@
 #Actividad 1
 VariableControl = 0
 while VariableControl < 5:
-    print("VariableControl:", VariableControl)
     VariableControl += 1
-else:
-    print(f"Variable de Control es: {VariableControl}") 
+    if VariableControl == 3:
+        continue
+    print(VariableControl)
 # %%
 #Actividad 2
 clave = input("Ingrese la clave: ")
@@ -33,3 +33,16 @@ while opcion != "salir":
     else:
         print("Opción no válida, por favor intente de nuevo")
 # %%
+#Actividad 4
+contraseña = "python123"
+intentos = 0
+while intentos < 3:
+    ingreso = input("Ingrese la contraseña: ")
+    if ingreso == contraseña:
+        print("Contraseña correcta")  # Contraseña correcta
+        break
+    else:
+        print("Contraseña incorrecta, intente de nuevo")  # Contraseña incorrecta, intente de nuevo
+        intentos += 1
+if intentos == 3:
+    print("Demasiados intentos fallidos, acceso bloqueado")  # Demasiados intentos fallidos, acceso bloqueado
