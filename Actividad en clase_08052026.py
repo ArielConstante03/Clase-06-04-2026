@@ -17,10 +17,20 @@ else:
 precio = 1
 suma = 0
 while precio > 0:
-    precio = int(input("Ingrese precio"))
+    precio = int(input("Ingrese precio (número <=0 finaliza programa): "))
     suma += precio
     if precio <= 0:
         print("El valor del registro de compras es de: $", suma)
         print("El programa ha finalizado")
         break
+# %%
+# Actividad 3 - While con continue
+ns = int(input("Ingrese número límite: "))
+n = 0
+div = 0
+while n < ns:
+        n += 1
+        if n%5 == 0:
+            continue
+        print(n)
 # %%
