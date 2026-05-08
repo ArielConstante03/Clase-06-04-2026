@@ -1,6 +1,7 @@
 #Ariel Constante & Sebastián Lara
 #08 05 2026
 #Actividad 1 - While con variable de control
+#%%
 n = 0
 sumatotal = 0
 n = int(input("Ingrese número entero positivo: "))
@@ -20,6 +21,7 @@ while precio > 0:
     precio = int(input("Ingrese precio (número <=0 finaliza programa): "))
     suma += precio
     if precio <= 0:
+        suma -= precio
         print("El valor del registro de compras es de: $", suma)
         print("El programa ha finalizado")
         break
