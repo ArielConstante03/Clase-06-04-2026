@@ -40,13 +40,13 @@ print(f'La cantidad de consonantes es: {consonantes}')
 print(f'La cantidad de letras total es: {letras_totales}')
 #%%
 #Actividad 5:
-it_companies = ["Facebook", "Google", "Apple", "Amazon"]
+it_companies = {"Facebook", "Facebook", "Google", "Apple", "Amazon"}
 for company in it_companies:
     print(company)
 
 #%%
 #Actividad 6:
-asistentes = ["Ana", "Luis", "María", "Ana", "Carlos", "Luis", "Sofía"]
+asistentes = {"Ana", "Luis", "María", "Ana", "Carlos", "Luis", "Sofía"}
 for estudiante in asistentes:
     print(f'Generar certificado para: {estudiante}')
 
