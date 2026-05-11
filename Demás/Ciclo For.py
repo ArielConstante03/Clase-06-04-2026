@@ -31,6 +31,10 @@ for letra in palabra:
         vocales = vocales + 1
 print("El número de vocales es:", vocales)
 
+#Extra: Cantidad de consonantes
+consonantes = 0
+letras_totales = int(len(palabra))
+consonantes = letras_totales - vocales
 #%%
 #Actividad 5:
 it_companies = ["Facebook", "Google", "Apple", "Amazon"]
