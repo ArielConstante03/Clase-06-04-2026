@@ -25,9 +25,10 @@ for letra in palabra:
 #%%
 #Actividad 4:
 palabra = input("Ingrese una palabra: ")
+print("La palabra es", palabra)
 vocales = 0
 for letra in palabra:
-    if letra == "a" or letra == "e" or letra == "i" or letra == "o" or letra == "u": # if letra in "aeiouAEIOU": (también sirve)
+    if letra in "aeiouAEIOU":
         vocales = vocales + 1
 print("El número de vocales es:", vocales)
 
@@ -35,6 +36,8 @@ print("El número de vocales es:", vocales)
 consonantes = 0
 letras_totales = int(len(palabra))
 consonantes = letras_totales - vocales
+print(f'La cantidad de consonantes es: {consonantes}')
+print(f'La cantidad de letras total es: {letras_totales}')
 #%%
 #Actividad 5:
 it_companies = ["Facebook", "Google", "Apple", "Amazon"]
