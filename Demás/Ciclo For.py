@@ -17,3 +17,31 @@ promedio = suma / len(notas)
 print("El promedio es:", promedio)
 
 # %%
+#Actividad 3:
+palabra = "Python"
+for letra in palabra:
+    print(letra)
+
+#%%
+#Actividad 4:
+palabra = input("Ingrese una palabra: ")
+vocales = 0
+for letra in palabra:
+    if letra == "a" or letra == "e" or letra == "i" or letra == "o" or letra == "u": # if letra in "aeiouAEIOU": (también sirve)
+        vocales = vocales + 1
+print("El número de vocales es:", vocales)
+
+#%%
+#Actividad 5:
+it_companies = ["Facebook", "Google", "Apple", "Amazon"]
+for company in it_companies:
+    print(company)
+
+#%%
+#Actividad 6:
+asistentes = ["Ana", "Luis", "María", "Ana", "Carlos", "Luis", "Sofía"]
+for estudiante in asistentes:
+    print(f'Generar certificado para: {estudiante}')
+
+#%%
+#Actividad 7:
