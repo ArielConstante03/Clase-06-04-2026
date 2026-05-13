@@ -52,3 +52,22 @@ for estudiante in asistentes:
 
 #%%
 #Actividad 7:
+codigos = ['A-1101', 'A-1102', 'A-1103', 'A-1104', 'A-1105', ]
+codigo_buscado = 'A-1103'
+for codigo in codigos:
+    print(codigo)
+    if codigo == codigo_buscado:
+        encontrado = True
+        print(f'código encontrado: {codigo}')
+        break
+
+#%%
+# Actividad 8: 
+cedula = str(input("Ingrese su cédula: "))
+cedula_limpia = ""
+for caracter in cedula:
+    if caracter == "-" or caracter == " ":
+        continue
+    cedula_limpia = cedula_limpia + caracter
+print(f'La cédula limpia es: {cedula_limpia}')
+# %%
