@@ -1,4 +1,4 @@
-# Simple Calculator Program
+# Programa: calculator.py
 
 def calculator():
     """A simple calculator that performs basic arithmetic operations."""

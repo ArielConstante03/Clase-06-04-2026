@@ -1,7 +1,6 @@
 # Ariel Constante
 # 12 05 2026
 # Actividad 7 - Ciclos For
-
 #%%
 #EJERCICIO LISTAS
 notas = [8.5, 6.0, 9.0, 7.0, 5.5]
@@ -22,11 +21,11 @@ print("La cantidad de estudiantes reprobados es:", reprobados)
 
 #%%
 #EJERCICIOS STRING
-contrasena = "Python2026"
+contraseña = "Python2026"
 letras = 0
 numeros = 0
 cantidad_o = 0
-for caracter in contrasena:
+for caracter in contraseña:
     if caracter.isalpha():
         letras = letras + 1
     if caracter.isdigit():
