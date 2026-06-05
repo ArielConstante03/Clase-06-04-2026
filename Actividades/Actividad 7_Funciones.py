@@ -70,10 +70,20 @@ def promedio(n1, n2, n3):
     return (n1 + n2 + n3) / 3
 
 def nota_mayor(n1, n2, n3):
-    return max(n1, n2, n3)
+    if n1 >= n2 and n1 >= n3:
+        return n1
+    elif n2 >= n1 and n2 >= n3:
+        return n2
+    else:
+        return n3
 
 def nota_menor(n1, n2, n3):
-    return min(n1, n2, n3)
+    if n1 <= n2 and n1 <= n3:
+        return n1
+    elif n2 <= n1 and n2 <= n3:
+        return n2
+    else:
+        return n3
 
 def estado_estudiante(n1, n2, n3):
     prom = promedio(n1, n2, n3)
