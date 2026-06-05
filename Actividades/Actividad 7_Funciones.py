@@ -63,3 +63,43 @@ while True:
             print(división(a,b))
     else:
         print('Ingrese uno de los número mostrados...')
+
+# Tarea 
+# 05/06/2026
+def promedio(n1, n2, n3):
+    return (n1 + n2 + n3) / 3
+
+def nota_mayor(n1, n2, n3):
+    return max(n1, n2, n3)
+
+def nota_menor(n1, n2, n3):
+    return min(n1, n2, n3)
+
+def estado_estudiante(n1, n2, n3):
+    prom = promedio(n1, n2, n3)
+    
+    if prom >= 7:
+        return "Aprueba"
+    else:
+        return "Reprueba"
+print('Este programa necesita tres notas')
+nota1 = float(input("Ingrese la primera calificación: "))
+nota2 = float(input("Ingrese la segunda calificación: "))
+nota3 = float(input("Ingrese la tercera calificación: "))
+while True:
+    print("\nMENÚ\n1. Calcular promedio\n2. Mostrar nota mayor\n3. Mostrar nota menor\n4. Determinar si aprueba o reprueba\n5. Salir del programa")
+    opcion = int(input("Seleccione una opción: "))
+    if opcion == 5:
+        print('Programa finalizado correctamente')
+        break
+    else:
+        if opcion == 1:
+            print("Promedio:", promedio(nota1, nota2, nota3))
+        elif opcion == 2:
+            print("Nota mayor:", nota_mayor(nota1, nota2, nota3))
+        elif opcion == 3:
+            print("Nota menor:", nota_menor(nota1, nota2, nota3))
+        elif opcion == 4:
+            print("Resultado:", estado_estudiante(nota1, nota2, nota3))
+        else:
+            print("Opción no válida")
